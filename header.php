@@ -17,7 +17,7 @@
 			<img src="images/logo_200x200.png" border=0 width="142px" />
 		</div>
 		<div class="col-sm-5">	
-			<p><h2 style="color:#7f6bb0"><?php echo $_SESSION['ses_acc_departd'];?></h2></p>
+			<p><h2 style="color:#7f6bb0"><?php echo ((isset($_SESSION['ses_acc_departd'])) ? $_SESSION['ses_acc_departd'] : 'สำนักงานขนส่งจังหวัดเชียงราย');?></h2></p>
 			<p><h2 style="font-size: 22px;color:#f3ef41">Provincial Land Transport Office Of Chiangrai</h2></p>
 		</div>
 		<div class="col-sm-5" style="text-align: right;">
