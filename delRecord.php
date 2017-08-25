@@ -13,7 +13,6 @@ if(empty($_REQUEST['id']) || empty($_REQUEST['card_id'])) {
         $numRows = mysqli_num_rows($check_card);
 	}
 	if($numRows > 0) {
-		//echo "duplicate Card Id ".$numRows; die;
         echo "<script>window.location='record.php';</script>";
 	} else {
 
